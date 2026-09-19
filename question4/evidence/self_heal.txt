@@ -1,0 +1,44 @@
+=== before (23:46:29)
+NAME                        READY   STATUS    RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+spam-api-6479cfdcfb-7jfnd   1/1     Running   0          16s   10.244.1.17   minikube-m02   <none>           <none>
+spam-api-6479cfdcfb-bhjzr   1/1     Running   0          16s   10.244.0.11   minikube       <none>           <none>
+=== kubectl delete pod spam-api-6479cfdcfb-7jfnd (23:46:29)
+pod "spam-api-6479cfdcfb-7jfnd" deleted from default namespace
+=== +1x2s (23:46:29)
+NAME                        READY   STATUS              RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+spam-api-6479cfdcfb-7jfnd   1/1     Terminating         0          16s   10.244.1.17   minikube-m02   <none>           <none>
+spam-api-6479cfdcfb-bhjzr   1/1     Running             0          16s   10.244.0.11   minikube       <none>           <none>
+spam-api-6479cfdcfb-s8ppk   0/1     ContainerCreating   0          0s    <none>        minikube-m02   <none>           <none>
+=== +2x2s (23:46:31)
+NAME                        READY   STATUS        RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+spam-api-6479cfdcfb-7jfnd   1/1     Terminating   0          18s   10.244.1.17   minikube-m02   <none>           <none>
+spam-api-6479cfdcfb-bhjzr   1/1     Running       0          18s   10.244.0.11   minikube       <none>           <none>
+spam-api-6479cfdcfb-s8ppk   0/1     Running       0          2s    10.244.1.18   minikube-m02   <none>           <none>
+=== +3x2s (23:46:33)
+NAME                        READY   STATUS        RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+spam-api-6479cfdcfb-7jfnd   1/1     Terminating   0          20s   10.244.1.17   minikube-m02   <none>           <none>
+spam-api-6479cfdcfb-bhjzr   1/1     Running       0          20s   10.244.0.11   minikube       <none>           <none>
+spam-api-6479cfdcfb-s8ppk   0/1     Running       0          4s    10.244.1.18   minikube-m02   <none>           <none>
+=== +4x2s (23:46:35)
+NAME                        READY   STATUS      RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+spam-api-6479cfdcfb-7jfnd   0/1     Completed   0          22s   10.244.1.17   minikube-m02   <none>           <none>
+spam-api-6479cfdcfb-bhjzr   1/1     Running     0          22s   10.244.0.11   minikube       <none>           <none>
+spam-api-6479cfdcfb-s8ppk   1/1     Running     0          6s    10.244.1.18   minikube-m02   <none>           <none>
+=== +5x2s (23:46:37)
+NAME                        READY   STATUS    RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+spam-api-6479cfdcfb-bhjzr   1/1     Running   0          24s   10.244.0.11   minikube       <none>           <none>
+spam-api-6479cfdcfb-s8ppk   1/1     Running   0          8s    10.244.1.18   minikube-m02   <none>           <none>
+=== +6x2s (23:46:39)
+NAME                        READY   STATUS    RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+spam-api-6479cfdcfb-bhjzr   1/1     Running   0          26s   10.244.0.11   minikube       <none>           <none>
+spam-api-6479cfdcfb-s8ppk   1/1     Running   0          10s   10.244.1.18   minikube-m02   <none>           <none>
+=== ReplicaSet (desired vs current vs ready)
+NAME                  DESIRED   CURRENT   READY   AGE   CONTAINERS   IMAGES        SELECTOR
+spam-api-6479cfdcfb   2         2         2       28s   api          spam-api:v1   app=spam-api,pod-template-hash=6479cfdcfb
+=== ReplicaSet events
+Events:
+  Type    Reason            Age   From                   Message
+  ----    ------            ----  ----                   -------
+  Normal  SuccessfulCreate  28s   replicaset-controller  Created pod: spam-api-6479cfdcfb-7jfnd
+  Normal  SuccessfulCreate  28s   replicaset-controller  Created pod: spam-api-6479cfdcfb-bhjzr
+  Normal  SuccessfulCreate  12s   replicaset-controller  Created pod: spam-api-6479cfdcfb-s8ppk

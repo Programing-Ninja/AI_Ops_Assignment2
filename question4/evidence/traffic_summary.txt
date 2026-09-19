@@ -1,0 +1,5 @@
+--- traffic summary ---
+requests:      277
+non-200:       0
+served by v1:  58
+served by v2:  219

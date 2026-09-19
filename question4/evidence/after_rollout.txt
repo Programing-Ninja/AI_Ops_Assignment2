@@ -1,0 +1,9 @@
+NAME                                  DESIRED   CURRENT   READY   AGE   CONTAINERS   IMAGES        SELECTOR
+replicaset.apps/spam-api-5656dc788c   2         2         2       13s   api          spam-api:v2   app=spam-api,pod-template-hash=5656dc788c
+replicaset.apps/spam-api-6479cfdcfb   0         0         0       49s   api          spam-api:v1   app=spam-api,pod-template-hash=6479cfdcfb
+
+NAME                            READY   STATUS        RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+pod/spam-api-5656dc788c-bb74s   1/1     Running       0          7s    10.244.0.12   minikube       <none>           <none>
+pod/spam-api-5656dc788c-nr99n   1/1     Running       0          13s   10.244.1.19   minikube-m02   <none>           <none>
+pod/spam-api-6479cfdcfb-bhjzr   1/1     Terminating   0          49s   10.244.0.11   minikube       <none>           <none>
+pod/spam-api-6479cfdcfb-s8ppk   0/1     Completed     0          33s   10.244.1.18   minikube-m02   <none>           <none>

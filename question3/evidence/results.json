@@ -1,0 +1,74 @@
+[
+  {
+    "shard": 0,
+    "rows": 250,
+    "invalid": 25,
+    "missing_field": 16,
+    "bad_email": 9,
+    "pod": "signup-validator-0-l4blg",
+    "node": "minikube-m02"
+  },
+  {
+    "shard": 1,
+    "rows": 250,
+    "invalid": 15,
+    "missing_field": 11,
+    "bad_email": 4,
+    "pod": "signup-validator-1-9gbf2",
+    "node": "minikube-m02"
+  },
+  {
+    "shard": 2,
+    "rows": 250,
+    "invalid": 12,
+    "missing_field": 5,
+    "bad_email": 7,
+    "pod": "signup-validator-2-7f77j",
+    "node": "minikube"
+  },
+  {
+    "shard": 3,
+    "rows": 250,
+    "invalid": 8,
+    "missing_field": 3,
+    "bad_email": 5,
+    "pod": "signup-validator-3-jgxrb",
+    "node": "minikube-m02"
+  },
+  {
+    "shard": 4,
+    "rows": 250,
+    "invalid": 30,
+    "missing_field": 17,
+    "bad_email": 13,
+    "pod": "signup-validator-4-hjc89",
+    "node": "minikube-m02"
+  },
+  {
+    "shard": 5,
+    "rows": 250,
+    "invalid": 23,
+    "missing_field": 12,
+    "bad_email": 11,
+    "pod": "signup-validator-5-qwwwx",
+    "node": "minikube"
+  },
+  {
+    "shard": 6,
+    "rows": 250,
+    "invalid": 14,
+    "missing_field": 5,
+    "bad_email": 9,
+    "pod": "signup-validator-6-n2hpg",
+    "node": "minikube-m02"
+  },
+  {
+    "shard": 7,
+    "rows": 250,
+    "invalid": 16,
+    "missing_field": 8,
+    "bad_email": 8,
+    "pod": "signup-validator-7-sxbm8",
+    "node": "minikube-m02"
+  }
+]

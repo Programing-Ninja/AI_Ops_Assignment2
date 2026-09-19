@@ -1,0 +1,182 @@
+=== 23:43:58
+NAME                       READY   STATUS              RESTARTS   AGE   IP       NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   0/1     ContainerCreating   0          0s    <none>   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   0/1     ContainerCreating   0          0s    <none>   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   0/1     ContainerCreating   0          0s    <none>   minikube       <none>           <none>
+signup-validator-3-jgxrb   0/1     Pending             0          0s    <none>   minikube-m02   <none>           <none>
+=== 23:44:01
+NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   1/1     Running   0          3s    10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   1/1     Running   0          3s    10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   1/1     Running   0          3s    10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   1/1     Running   0          3s    10.244.1.11   minikube-m02   <none>           <none>
+=== 23:44:04
+NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   1/1     Running   0          6s    10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   1/1     Running   0          6s    10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   1/1     Running   0          6s    10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   1/1     Running   0          6s    10.244.1.11   minikube-m02   <none>           <none>
+=== 23:44:07
+NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   1/1     Running   0          9s    10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   1/1     Running   0          9s    10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   1/1     Running   0          9s    10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   1/1     Running   0          9s    10.244.1.11   minikube-m02   <none>           <none>
+=== 23:44:10
+NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   1/1     Running   0          13s   10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   1/1     Running   0          13s   10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   1/1     Running   0          13s   10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   1/1     Running   0          13s   10.244.1.11   minikube-m02   <none>           <none>
+=== 23:44:14
+NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   1/1     Running   0          16s   10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   1/1     Running   0          16s   10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   1/1     Running   0          16s   10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   1/1     Running   0          16s   10.244.1.11   minikube-m02   <none>           <none>
+=== 23:44:17
+NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   1/1     Running   0          19s   10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   1/1     Running   0          19s   10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   1/1     Running   0          19s   10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   1/1     Running   0          19s   10.244.1.11   minikube-m02   <none>           <none>
+=== 23:44:20
+NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   1/1     Running   0          22s   10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   1/1     Running   0          22s   10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   1/1     Running   0          22s   10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   1/1     Running   0          22s   10.244.1.11   minikube-m02   <none>           <none>
+=== 23:44:23
+NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   1/1     Running   0          25s   10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   1/1     Running   0          25s   10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   1/1     Running   0          25s   10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   1/1     Running   0          25s   10.244.1.11   minikube-m02   <none>           <none>
+=== 23:44:26
+NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   1/1     Running   0          28s   10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   1/1     Running   0          28s   10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   1/1     Running   0          28s   10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   1/1     Running   0          28s   10.244.1.11   minikube-m02   <none>           <none>
+=== 23:44:29
+NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   1/1     Running   0          31s   10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   1/1     Running   0          31s   10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   1/1     Running   0          31s   10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   1/1     Running   0          31s   10.244.1.11   minikube-m02   <none>           <none>
+=== 23:44:32
+NAME                       READY   STATUS      RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   0/1     Completed   0          34s   10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   0/1     Completed   0          34s   10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   0/1     Completed   0          34s   10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   0/1     Completed   0          34s   10.244.1.11   minikube-m02   <none>           <none>
+=== 23:44:35
+NAME                       READY   STATUS      RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   0/1     Completed   0          37s   10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   0/1     Completed   0          37s   10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   0/1     Completed   0          37s   10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   0/1     Completed   0          37s   10.244.1.11   minikube-m02   <none>           <none>
+signup-validator-4-hjc89   1/1     Running     0          3s    10.244.1.14   minikube-m02   <none>           <none>
+signup-validator-5-qwwwx   1/1     Running     0          3s    10.244.0.10   minikube       <none>           <none>
+signup-validator-6-n2hpg   1/1     Running     0          3s    10.244.1.16   minikube-m02   <none>           <none>
+signup-validator-7-sxbm8   1/1     Running     0          3s    10.244.1.15   minikube-m02   <none>           <none>
+=== 23:44:38
+NAME                       READY   STATUS      RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   0/1     Completed   0          40s   10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   0/1     Completed   0          40s   10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   0/1     Completed   0          40s   10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   0/1     Completed   0          40s   10.244.1.11   minikube-m02   <none>           <none>
+signup-validator-4-hjc89   1/1     Running     0          6s    10.244.1.14   minikube-m02   <none>           <none>
+signup-validator-5-qwwwx   1/1     Running     0          6s    10.244.0.10   minikube       <none>           <none>
+signup-validator-6-n2hpg   1/1     Running     0          6s    10.244.1.16   minikube-m02   <none>           <none>
+signup-validator-7-sxbm8   1/1     Running     0          6s    10.244.1.15   minikube-m02   <none>           <none>
+=== 23:44:41
+NAME                       READY   STATUS      RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   0/1     Completed   0          43s   10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   0/1     Completed   0          43s   10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   0/1     Completed   0          43s   10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   0/1     Completed   0          43s   10.244.1.11   minikube-m02   <none>           <none>
+signup-validator-4-hjc89   1/1     Running     0          9s    10.244.1.14   minikube-m02   <none>           <none>
+signup-validator-5-qwwwx   1/1     Running     0          9s    10.244.0.10   minikube       <none>           <none>
+signup-validator-6-n2hpg   1/1     Running     0          9s    10.244.1.16   minikube-m02   <none>           <none>
+signup-validator-7-sxbm8   1/1     Running     0          9s    10.244.1.15   minikube-m02   <none>           <none>
+=== 23:44:45
+NAME                       READY   STATUS      RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   0/1     Completed   0          47s   10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   0/1     Completed   0          47s   10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   0/1     Completed   0          47s   10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   0/1     Completed   0          47s   10.244.1.11   minikube-m02   <none>           <none>
+signup-validator-4-hjc89   1/1     Running     0          13s   10.244.1.14   minikube-m02   <none>           <none>
+signup-validator-5-qwwwx   1/1     Running     0          13s   10.244.0.10   minikube       <none>           <none>
+signup-validator-6-n2hpg   1/1     Running     0          13s   10.244.1.16   minikube-m02   <none>           <none>
+signup-validator-7-sxbm8   1/1     Running     0          13s   10.244.1.15   minikube-m02   <none>           <none>
+=== 23:44:48
+NAME                       READY   STATUS      RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   0/1     Completed   0          50s   10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   0/1     Completed   0          50s   10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   0/1     Completed   0          50s   10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   0/1     Completed   0          50s   10.244.1.11   minikube-m02   <none>           <none>
+signup-validator-4-hjc89   1/1     Running     0          16s   10.244.1.14   minikube-m02   <none>           <none>
+signup-validator-5-qwwwx   1/1     Running     0          16s   10.244.0.10   minikube       <none>           <none>
+signup-validator-6-n2hpg   1/1     Running     0          16s   10.244.1.16   minikube-m02   <none>           <none>
+signup-validator-7-sxbm8   1/1     Running     0          16s   10.244.1.15   minikube-m02   <none>           <none>
+=== 23:44:51
+NAME                       READY   STATUS      RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   0/1     Completed   0          53s   10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   0/1     Completed   0          53s   10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   0/1     Completed   0          53s   10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   0/1     Completed   0          53s   10.244.1.11   minikube-m02   <none>           <none>
+signup-validator-4-hjc89   1/1     Running     0          19s   10.244.1.14   minikube-m02   <none>           <none>
+signup-validator-5-qwwwx   1/1     Running     0          19s   10.244.0.10   minikube       <none>           <none>
+signup-validator-6-n2hpg   1/1     Running     0          19s   10.244.1.16   minikube-m02   <none>           <none>
+signup-validator-7-sxbm8   1/1     Running     0          19s   10.244.1.15   minikube-m02   <none>           <none>
+=== 23:44:54
+NAME                       READY   STATUS      RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   0/1     Completed   0          56s   10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   0/1     Completed   0          56s   10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   0/1     Completed   0          56s   10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   0/1     Completed   0          56s   10.244.1.11   minikube-m02   <none>           <none>
+signup-validator-4-hjc89   1/1     Running     0          22s   10.244.1.14   minikube-m02   <none>           <none>
+signup-validator-5-qwwwx   1/1     Running     0          22s   10.244.0.10   minikube       <none>           <none>
+signup-validator-6-n2hpg   1/1     Running     0          22s   10.244.1.16   minikube-m02   <none>           <none>
+signup-validator-7-sxbm8   1/1     Running     0          22s   10.244.1.15   minikube-m02   <none>           <none>
+=== 23:44:57
+NAME                       READY   STATUS      RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   0/1     Completed   0          59s   10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   0/1     Completed   0          59s   10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   0/1     Completed   0          59s   10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   0/1     Completed   0          59s   10.244.1.11   minikube-m02   <none>           <none>
+signup-validator-4-hjc89   1/1     Running     0          25s   10.244.1.14   minikube-m02   <none>           <none>
+signup-validator-5-qwwwx   1/1     Running     0          25s   10.244.0.10   minikube       <none>           <none>
+signup-validator-6-n2hpg   1/1     Running     0          25s   10.244.1.16   minikube-m02   <none>           <none>
+signup-validator-7-sxbm8   1/1     Running     0          25s   10.244.1.15   minikube-m02   <none>           <none>
+=== 23:45:00
+NAME                       READY   STATUS      RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   0/1     Completed   0          62s   10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   0/1     Completed   0          62s   10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   0/1     Completed   0          62s   10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   0/1     Completed   0          62s   10.244.1.11   minikube-m02   <none>           <none>
+signup-validator-4-hjc89   1/1     Running     0          28s   10.244.1.14   minikube-m02   <none>           <none>
+signup-validator-5-qwwwx   1/1     Running     0          28s   10.244.0.10   minikube       <none>           <none>
+signup-validator-6-n2hpg   1/1     Running     0          28s   10.244.1.16   minikube-m02   <none>           <none>
+signup-validator-7-sxbm8   1/1     Running     0          28s   10.244.1.15   minikube-m02   <none>           <none>
+=== 23:45:03
+NAME                       READY   STATUS      RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   0/1     Completed   0          65s   10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   0/1     Completed   0          65s   10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   0/1     Completed   0          65s   10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   0/1     Completed   0          65s   10.244.1.11   minikube-m02   <none>           <none>
+signup-validator-4-hjc89   1/1     Running     0          31s   10.244.1.14   minikube-m02   <none>           <none>
+signup-validator-5-qwwwx   1/1     Running     0          31s   10.244.0.10   minikube       <none>           <none>
+signup-validator-6-n2hpg   1/1     Running     0          31s   10.244.1.16   minikube-m02   <none>           <none>
+signup-validator-7-sxbm8   1/1     Running     0          31s   10.244.1.15   minikube-m02   <none>           <none>
+=== 23:45:06
+NAME                       READY   STATUS      RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+signup-validator-0-l4blg   0/1     Completed   0          68s   10.244.1.12   minikube-m02   <none>           <none>
+signup-validator-1-9gbf2   0/1     Completed   0          68s   10.244.1.13   minikube-m02   <none>           <none>
+signup-validator-2-7f77j   0/1     Completed   0          68s   10.244.0.9    minikube       <none>           <none>
+signup-validator-3-jgxrb   0/1     Completed   0          68s   10.244.1.11   minikube-m02   <none>           <none>
+signup-validator-4-hjc89   0/1     Completed   0          34s   10.244.1.14   minikube-m02   <none>           <none>
+signup-validator-5-qwwwx   0/1     Completed   0          34s   10.244.0.10   minikube       <none>           <none>
+signup-validator-6-n2hpg   0/1     Completed   0          34s   10.244.1.16   minikube-m02   <none>           <none>
+signup-validator-7-sxbm8   0/1     Completed   0          34s   10.244.1.15   minikube-m02   <none>           <none>

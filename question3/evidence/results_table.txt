@@ -1,0 +1,11 @@
+shard invalid expected missing bad_email  node           pod
+    0      25       25      16         9  minikube-m02   signup-validator-0-l4blg
+    1      15       15      11         4  minikube-m02   signup-validator-1-9gbf2
+    2      12       12       5         7  minikube       signup-validator-2-7f77j
+    3       8        8       3         5  minikube-m02   signup-validator-3-jgxrb
+    4      30       30      17        13  minikube-m02   signup-validator-4-hjc89
+    5      23       23      12        11  minikube       signup-validator-5-qwwwx
+    6      14       14       5         9  minikube-m02   signup-validator-6-n2hpg
+    7      16       16       8         8  minikube-m02   signup-validator-7-sxbm8
+
+shards collected: 8/8   total invalid rows: 143

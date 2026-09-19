@@ -1,0 +1,31 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: signup-validator
+spec:
+  completions: 8
+  parallelism: 4
+  completionMode: Indexed
+  template:
+    spec:
+      restartPolicy: Never    
+      containers:
+        - name: validator
+          image: signup-validator:v1
+          imagePullPolicy: Never   
+          env:
+            - name: WORK_SECONDS   
+              value: "30"
+            - name: POD_NAME       
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: NODE_NAME     
+              valueFrom:
+                fieldRef:
+                  fieldPath: spec.nodeName
+          resources:
+            requests:
+              cpu: "500m"
+            limits:
+              cpu: "500m"

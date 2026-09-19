@@ -1,0 +1,11 @@
+NAME                       READY   UP-TO-DATE   AVAILABLE   AGE   CONTAINERS   IMAGES        SELECTOR
+deployment.apps/spam-api   2/2     2            2           6s    api          spam-api:v1   app=spam-api
+
+NAME               TYPE       CLUSTER-IP       EXTERNAL-IP   PORT(S)        AGE   SELECTOR
+service/spam-api   NodePort   10.109.209.103   <none>        80:30080/TCP   6s    app=spam-api
+NAME                                  DESIRED   CURRENT   READY   AGE   CONTAINERS   IMAGES        SELECTOR
+replicaset.apps/spam-api-6479cfdcfb   2         2         2       6s    api          spam-api:v1   app=spam-api,pod-template-hash=6479cfdcfb
+
+NAME                            READY   STATUS    RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+pod/spam-api-6479cfdcfb-7jfnd   1/1     Running   0          6s    10.244.1.17   minikube-m02   <none>           <none>
+pod/spam-api-6479cfdcfb-bhjzr   1/1     Running   0          6s    10.244.0.11   minikube       <none>           <none>

@@ -1,0 +1,50 @@
+{
+  "0": {
+    "rows": 250,
+    "invalid": 25,
+    "bad_email": 9,
+    "missing_field": 16
+  },
+  "1": {
+    "rows": 250,
+    "invalid": 15,
+    "bad_email": 4,
+    "missing_field": 11
+  },
+  "2": {
+    "rows": 250,
+    "invalid": 12,
+    "bad_email": 7,
+    "missing_field": 5
+  },
+  "3": {
+    "rows": 250,
+    "invalid": 8,
+    "bad_email": 5,
+    "missing_field": 3
+  },
+  "4": {
+    "rows": 250,
+    "invalid": 30,
+    "bad_email": 13,
+    "missing_field": 17
+  },
+  "5": {
+    "rows": 250,
+    "invalid": 23,
+    "bad_email": 11,
+    "missing_field": 12
+  },
+  "6": {
+    "rows": 250,
+    "invalid": 14,
+    "bad_email": 9,
+    "missing_field": 5
+  },
+  "7": {
+    "rows": 250,
+    "invalid": 16,
+    "bad_email": 8,
+    "missing_field": 8
+  }
+}

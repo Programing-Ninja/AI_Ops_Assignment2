@@ -1,0 +1,12 @@
+Name:               minikube
+  cpu:                20
+Allocatable:
+  cpu:                20
+Allocated resources:
+  cpu                850m (4%)   100m (0%)
+Name:               minikube-m02
+  cpu:                20
+Allocatable:
+  cpu:                20
+Allocated resources:
+  cpu                100m (0%)  100m (0%)

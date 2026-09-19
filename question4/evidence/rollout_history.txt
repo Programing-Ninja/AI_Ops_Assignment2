@@ -1,0 +1,28 @@
+deployment.apps/spam-api 
+REVISION  CHANGE-CAUSE
+1         v1: initial deploy of the Question 1 multi-stage image
+2         v2: /healthz now reports version string
+
+deployment.apps/spam-api with revision #2
+Pod Template:
+  Labels:	app=spam-api
+	pod-template-hash=5656dc788c
+  Annotations:	kubernetes.io/change-cause: v2: /healthz now reports version string
+  Containers:
+   api:
+    Image:	spam-api:v2
+    Port:	8000/TCP
+    Host Port:	0/TCP
+    Limits:
+      cpu:	500m
+      memory:	512Mi
+    Requests:
+      cpu:	250m
+      memory:	256Mi
+    Readiness:	http-get http://:8000/healthz delay=3s timeout=1s period=3s successThreshold=1 failureThreshold=2
+    Environment:	<none>
+    Mounts:	<none>
+  Volumes:	<none>
+  Node-Selectors:	<none>
+  Tolerations:	<none>
+

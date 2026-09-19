@@ -1,0 +1,51 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spam-api
+  annotations:
+    kubernetes.io/change-cause: "v1: initial deploy of the Question 1 multi-stage image"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: spam-api
+  # Zero-downtime rollout: bring up 1 new pod first (maxSurge), never drop below 2 ready
+  # pods (maxUnavailable: 0). A new pod only counts once its readinessProbe passes.
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  template:
+    metadata:
+      labels:
+        app: spam-api
+    spec:
+      containers:
+        - name: api
+          image: spam-api:v1
+          imagePullPolicy: Never   # images are loaded into minikube, not pulled
+          ports:
+            - containerPort: 8000
+          resources:
+            requests:
+              cpu: "250m"
+              memory: "256Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
+          # /healthz returns 503 until the joblib model is loaded, so the Service only
+          # routes traffic to pods that can actually serve /predict.
+          readinessProbe:
+            httpGet:
+              path: /healthz
+              port: 8000
+            initialDelaySeconds: 3
+            periodSeconds: 3
+            failureThreshold: 2
+          # On delete/rollout, keep serving for 5 s before SIGTERM so kube-proxy has time to
+          # drop this pod from the Service endpoints; otherwise in-flight requests get refused.
+          lifecycle:
+            preStop:
+              exec:
+                command: ["sleep", "5"]

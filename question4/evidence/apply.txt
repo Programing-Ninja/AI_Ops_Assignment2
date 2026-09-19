@@ -1,0 +1,2 @@
+deployment.apps/spam-api created
+service/spam-api created
