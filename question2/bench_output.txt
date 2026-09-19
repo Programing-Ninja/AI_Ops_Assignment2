@@ -1,0 +1,4 @@
+MISS avg 1.50 ms over 20 requests
+HIT  avg 0.93 ms over 20 requests
+--- single request, shows the cached flag ---
+{"label":"spam","cached":true}

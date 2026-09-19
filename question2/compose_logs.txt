@@ -1,0 +1,55 @@
+api-1  | INFO:     Started server process [1]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+api-1  | INFO:     Shutting down
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [1]
+api-1  | INFO:     Started server process [1]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+api-1  | INFO:     172.18.0.1:41868 - "GET /healthz HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53122 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53138 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53150 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53160 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53164 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53166 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53168 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53176 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53184 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53196 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53208 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53224 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53238 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53252 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53260 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53264 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53280 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53282 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53292 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53308 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53310 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53316 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53318 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53322 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53332 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53336 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53352 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53368 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53384 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53390 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53406 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53412 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53420 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53436 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53446 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53454 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53468 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53472 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53480 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53490 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53498 - "POST /predict HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:53510 - "POST /predict HTTP/1.1" 200 OK

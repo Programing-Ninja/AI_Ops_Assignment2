@@ -1,0 +1,15 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.multi
+    ports:
+      - "8000:8000"
+    environment:
+      - REDIS_HOST=cache
+    depends_on:
+      - cache
+
+  cache:
+    image: redis:7-alpine
+
